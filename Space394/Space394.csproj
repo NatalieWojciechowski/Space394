@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{FDA43C61-9645-4618-A047-D000663C4960}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Space394</RootNamespace>
+    <AssemblyName>Space394</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>ca669e94-c36c-4ad6-b13b-45829d1c79af</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Corbin\Desktop\Space394\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>AD358935440BDE38B8BAF1EF67D93EC7B31AB66C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Space394_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug No AI Firing|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug No AI Firing\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="BEPUphysics">
+      <HintPath>Libs\x86\BEPUphysics.dll</HintPath>
+    </Reference>
+    <Reference Include="lua51">
+      <HintPath>.\lua51.dll</HintPath>
+    </Reference>
+    <Reference Include="LuaInterface">
+      <HintPath>.\LuaInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AI\AI.cs" />
+    <Compile Include="AI\AIDyingState.cs" />
+    <Compile Include="AI\AIPilotingState.cs" />
+    <Compile Include="AI\AIPursuitState.cs" />
+    <Compile Include="AI\AISpawningState.cs" />
+    <Compile Include="AI\AIState.cs" />
+    <Compile Include="AI\AIWaitingToSpawnState.cs" />
+    <Compile Include="AI\AIWanderState.cs" />
+    <Compile Include="AI\AIEngageBattleshipState.cs" />
+    <Compile Include="AI\AIRetreatState.cs" />
+    <Compile Include="AnimatedTexture.cs" />
+    <Compile Include="AutoTexture2D.cs" />
+    <Compile Include="Collision\CollisionBase.cs" />
+    <Compile Include="Collision\CollisionBox.cs" />
+    <Compile Include="Collision\CollisionManager.cs" />
+    <Compile Include="Collision\CollisionMesh.cs" />
+    <Compile Include="Collision\CollisionSphere.cs" />
+    <Compile Include="ContentLoadManager.cs" />
+    <Compile Include="DisplayUnit.cs" />
+    <Compile Include="Events\DestroyTargetEvent.cs" />
+    <Compile Include="Events\Event.cs" />
+    <Compile Include="GameCamera.cs" />
+    <Compile Include="HUDUnit.cs" />
+    <Compile Include="InputManager.cs" />
+    <Compile Include="LogCat.cs" />
+    <Compile Include="LuaManager.cs" />
+    <Compile Include="Package\NetworkController.cs" />
+    <Compile Include="Package\Package.cs" />
+    <Compile Include="Package\PackageFactory.cs" />
+    <Compile Include="PanelTexture2D.cs" />
+    <Compile Include="Particles\EEngineTrailGenerator.cs" />
+    <Compile Include="Particles\EEngineTrailParticle.cs" />
+    <Compile Include="Particles\EngineTrailParticle.cs" />
+    <Compile Include="Particles\EngineTrailParticleGenerator.cs" />
+    <Compile Include="Particles\ExplosionParticle.cs" />
+    <Compile Include="Particles\ExplosionParticleGenerator.cs" />
+    <Compile Include="Particles\HEngineTrailGenerator.cs" />
+    <Compile Include="Particles\HEngineTrailParticle.cs" />
+    <Compile Include="Particles\MissileTrailParticleGenerator.cs" />
+    <Compile Include="Particles\MissileTrailParticle.cs" />
+    <Compile Include="Particles\StarParticle.cs" />
+    <Compile Include="Particles\StarParticleGenerator.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="PlayerCamera.cs" />
+    <Compile Include="PlayerHUD.cs" />
+    <Compile Include="PlayerStates\DyingPlayerState.cs" />
+    <Compile Include="PlayerStates\LoginPlayerState.cs" />
+    <Compile Include="PlayerStates\MenuPlayerState.cs" />
+    <Compile Include="PlayerStates\PausedPlayerState.cs" />
+    <Compile Include="PlayerStates\PilotingPlayerState.cs" />
+    <Compile Include="PlayerStates\PlayerSelectPlayerState.cs" />
+    <Compile Include="PlayerStates\PlayerState.cs" />
+    <Compile Include="PlayerStates\ScoreboardPlayerState.cs" />
+    <Compile Include="PlayerStates\SpawningPlayerState.cs" />
+    <Compile Include="PlayerStates\SpawnSelectPlayerState.cs" />
+    <Compile Include="PlayerStates\SpectatorPlayerState.cs" />
+    <Compile Include="PlayerStates\TeamSelectPlayerState.cs" />
+    <Compile Include="PlayerStates\TurningAroundPlayerState.cs" />
+    <Compile Include="ProjectileManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="SceneObject\Collectible\Flag.cs" />
+    <Compile Include="SceneObject\Debris\Asteroid.cs" />
+    <Compile Include="Particles\DustParticle.cs" />
+    <Compile Include="Particles\DustParticleGenerator.cs" />
+    <Compile Include="Particles\Particle.cs" />
+    <Compile Include="Particles\ParticleGenerator.cs" />
+    <Compile Include="SceneObject\Projectile\EsxolusBMissile.cs" />
+    <Compile Include="SceneObject\Projectile\HalkAMissile.cs" />
+    <Compile Include="SceneObject\Projectile\EsxolusAMissile.cs" />
+    <Compile Include="SceneObject\Projectile\EsxolusIMissile.cs" />
+    <Compile Include="SceneObject\Projectile\HalkBMissile.cs" />
+    <Compile Include="SceneObject\Projectile\HalkIMissile.cs" />
+    <Compile Include="SceneObject\Projectile\Laser.cs" />
+    <Compile Include="SceneObject\SceneObjectFactory.cs" />
+    <Compile Include="SceneObject\Projectile\Missile.cs" />
+    <Compile Include="SceneObject\Projectile\Projectile.cs" />
+    <Compile Include="SceneObject\Scenery\MassiveExplosion.cs" />
+    <Compile Include="SceneObject\Scenery\Explosion.cs" />
+    <Compile Include="SceneObject\Ship\Battleship\Battleship.cs" />
+    <Compile Include="SceneObject\Ship\Battleship\CapitalShip\CapitalShip.cs" />
+    <Compile Include="SceneObject\Ship\Battleship\Carrier.cs" />
+    <Compile Include="SceneObject\Ship\Battleship\Destroyer.cs" />
+    <Compile Include="SceneObject\Ship\Battleship\CapitalShip\EsxolusCapitalShip.cs" />
+    <Compile Include="SceneObject\Ship\Battleship\FlagShip.cs" />
+    <Compile Include="SceneObject\Ship\Battleship\CapitalShip\HalkCapitalShip.cs" />
+    <Compile Include="SceneObject\Ship\Battleship\LauncherCorsair.cs" />
+    <Compile Include="SceneObject\Ship\Battleship\MunitionsDepot.cs" />
+    <Compile Include="SceneObject\Ship\Battleship\RepairCruiser.cs" />
+    <Compile Include="SceneObject\Collectible\CollectibleItem.cs" />
+    <Compile Include="SceneObject\Ship\Battleship\SpawnShip.cs" />
+    <Compile Include="SceneObject\Ship\Fighter\AssaultFighter\AssaultFighter.cs" />
+    <Compile Include="SceneObject\SceneObject.cs" />
+    <Compile Include="SceneObject\Projectile\Explosive.cs" />
+    <Compile Include="SceneObject\Ship\Fighter\AssaultFighter\EsxolusAssaultFighter.cs" />
+    <Compile Include="SceneObject\Ship\Fighter\Bomber\Bomber.cs" />
+    <Compile Include="SceneObject\Ship\Fighter\Bomber\EsxolusBomber.cs" />
+    <Compile Include="SceneObject\Ship\Fighter\Interceptor\EsxolusInterceptor.cs" />
+    <Compile Include="SceneObject\Ship\Fighter\Fighter.cs" />
+    <Compile Include="SceneObject\Ship\Fighter\AssaultFighter\HalkAssaultFighter.cs" />
+    <Compile Include="SceneObject\Ship\Fighter\Bomber\HalkBomber.cs" />
+    <Compile Include="SceneObject\Ship\Fighter\Interceptor\HalkInterceptor.cs" />
+    <Compile Include="SceneObject\Ship\Fighter\Interceptor\Interceptor.cs" />
+    <Compile Include="SceneObject\Ship\Ship.cs" />
+    <Compile Include="SceneObject\StarBox.cs" />
+    <Compile Include="SceneObject\TriggerArea.cs" />
+    <Compile Include="SceneObject\Turret\EsxolusTurret.cs" />
+    <Compile Include="SceneObject\Turret\HalkTurret.cs" />
+    <Compile Include="SceneObject\Turret\Turret.cs" />
+    <Compile Include="Scene\CreditsScene.cs" />
+    <Compile Include="Scene\MainMenuScene.cs" />
+    <Compile Include="Scene\GameScene.cs" />
+    <Compile Include="Scene\LoadingScene.cs" />
+    <Compile Include="Scene\LobbyScene.cs" />
+    <Compile Include="Scene\LogoScene.cs" />
+    <Compile Include="Scene\StartScene.cs" />
+    <Compile Include="Scene\MissionSelectScene.cs" />
+    <Compile Include="Scene\OptionsScene.cs" />
+    <Compile Include="Scene\PlayerSelectScene.cs" />
+    <Compile Include="Scene\Scene.cs" />
+    <Compile Include="SoundManager.cs" />
+    <Compile Include="Space394Game.cs" />
+    <Compile Include="StringWriter.cs" />
+    <Compile Include="TextureQuad.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThreadLock.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Space394Content\Space394Content.contentproj">
+      <Name>Space394Content</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>
